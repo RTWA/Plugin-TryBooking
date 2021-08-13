@@ -47,14 +47,16 @@ OjIxKzAzOjAw0PvlWQAAAABJRU5ErkJggg==" alt="TryBooking"/>
             <a id="item<?php echo $i; ?>" href="https://www.trybooking.co.uk/<?php echo $item['bookingID']; ?>"
                 target="_blank" class="box-slide">
                 <div class="reveal-content"><?php echo $item['bookingName']; ?></div>
-            </a>
+            </a>            
+            <?php if ($item['bookingDesc'] <> '') : ?>
             <div class="desc"><?php echo $item['bookingDesc']; ?></div>
+            <?php endif; ?>
         </div>
         <?php $i++;
     endforeach;
     if ($i == 1) : ?>
         <div class="item">
-            <a id="item<?php echo $i; ?>" href="#" target="_blank" class="box-slide">
+            <a id="item<?php echo $i; ?>" href="#" class="box-slide">
                 <div class="reveal-content">&nbsp;</div>
             </a>
             <div class="desc">No events are currently available</div>
