@@ -49,7 +49,7 @@ OjIxKzAzOjAw0PvlWQAAAABJRU5ErkJggg==" alt="TryBooking"/>
                 <div class="reveal-content"><?php echo $item['bookingName']; ?></div>
             </a>            
             <?php if ($item['bookingDesc'] <> '') : ?>
-            <div class="desc"><?php echo $item['bookingDesc']; ?></div>
+            <div class="desc dark:text-gray-900"><?php echo $item['bookingDesc']; ?></div>
             <?php endif; ?>
         </div>
         <?php $i++;

@@ -6,7 +6,9 @@ body.view {
 
 /* TryBooking Plugin */
 .preview .TryBooking {
-    width: 300px;
+    max-width: 208px !important;
+    max-height: 208px !important;
+    height: 208px !important;
 }
 
 .tb-header {

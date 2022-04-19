@@ -101,7 +101,7 @@ class TryBooking_Plugin extends Plugin
                             <a id="item{index}" href="https://www.trybooking.co.uk/{value.bookingID}" target="_blank" class="box-slide">
                                 <div class="reveal-content">{value.bookingName}&nbsp;</div>
                             </a>
-                            <div class="desc" data-val="value.bookingDesc"></div>
+                            <div class="desc dark:text-gray-900" data-val="value.bookingDesc"></div>
                        </div>'
         ],
     ];
